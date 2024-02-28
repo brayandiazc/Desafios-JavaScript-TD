@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- operaciones matemáticas -->
+    <script>
+      // Pedir al usuario que ingrese dos números
+      var num1 = parseFloat(prompt("Ingrese el primer número:"));
+      var num2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+      // Realizar las operaciones matemáticas
+      var suma = num1 + num2;
+      var resta = num1 - num2;
+      var division = num1 / num2;
+      var multiplicacion = num1 * num2;
+      var modulo = num1 % num2;
+
+      // Mostrar los resultados
+      console.log("Suma:", suma);
+      console.log("Resta:", resta);
+      console.log("División:", division);
+      console.log("Multiplicación:", multiplicacion);
+      console.log("Módulo:", modulo);
+    </script>
+
+    <!-- Convercion de temperatura -->
+    <script>
+      // Pedir al usuario que ingrese la temperatura en grados Celsius
+      var celsius = parseFloat(
+        prompt("Ingrese la temperatura en grados Celsius:")
+      );
+
+      // Convertir a grados Kelvin y Fahrenheit
+      var kelvin = celsius + 273.15;
+      var fahrenheit = (celsius * 9) / 5 + 32;
+
+      // Mostrar los resultados
+      console.log("Temperatura en Kelvin:", kelvin);
+      console.log("Temperatura en Fahrenheit:", fahrenheit);
+    </script>
+
+    <!-- Conversión de días a años, semanas y días: -->
+    <script>
+      // Pedir al usuario que ingrese la cantidad de días
+      var dias = parseInt(prompt("Ingrese la cantidad de días:"));
+
+      // Calcular años, semanas y días
+      var anos = Math.floor(dias / 365);
+      var semanas = Math.floor((dias % 365) / 7);
+      var diasRestantes = (dias % 365) % 7;
+
+      // Mostrar los resultados
+      console.log("Años:", anos);
+      console.log("Semanas:", semanas);
+      console.log("Días:", diasRestantes);
+    </script>
+
+    <!-- Operaciones con 5 números: -->
+    <script>
+      // Pedir al usuario que ingrese 5 números
+      var numeros = [];
+      for (var i = 0; i < 5; i++) {
+        numeros.push(parseFloat(prompt("Ingrese el número " + (i + 1) + ":")));
+      }
+
+      // Calcular la suma de los números
+      var sumaNumeros = numeros.reduce((a, b) => a + b, 0);
+
+      // Calcular el promedio de los números
+      var promedio = sumaNumeros / numeros.length;
+
+      // Mostrar los resultados
+      console.log("Suma de los números:", sumaNumeros);
+      console.log("Promedio de los números:", promedio);
+    </script>
+  </body>
+</html>
