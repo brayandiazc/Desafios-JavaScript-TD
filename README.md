@@ -12,9 +12,18 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
 
 ## Indice
 
-- **Modulo 3** - Fundamentos de programación en JavaScript
-  - **Unidad 1** - Introducción al lenguaje JavaScript
-    1. [Desafio Guiado - Uso de variables y operadores aritméticos](./MODULO-3/Unidad-1/1-UsoVariablesOperadoresAritmeticos.md)
+1. **Modulo 1** - Orientación al perfil y Metodología del curso
+2. **Modulo 2** - Fundamentos de Desarrollo Web
+   1. Unidad 1 - HTML y CSS
+      1. [Desafio Guiado - Meet and Coffee](./MODULO-2/Unidad-1/DesafioGuiado-MeetAndCoffee)
+   2. Unidad 2 - Bootstrap
+      1. [Desafio Guiado - Suricata](./MODULO-2/Unidad-2/DesafioGuiado-Suricata)
+      2. [Desafio Guiado - OliviaRos](./MODULO-2/Unidad-2/DesafioGuiado-OliviaRos)
+   3. Unidad 3 - JavaScript
+      1. [Desafio Guiado - Notas finales](./MODULO-2/Unidad-3/DesafioGuiado-NotasFinales)
+3. **Modulo 3** - Fundamentos de programación en JavaScript
+   1. Unidad 1 - Introducción al lenguaje JavaScript
+      1. [Desafio Guiado - Uso de variables y operadores aritméticos](./MODULO-3/Unidad-1/1-UsoVariablesOperadoresAritmeticos.md)
 
 ## Empezando 🚀
 
