@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3 - solución</title>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <h2>Resultado: <span class="resultado"></span></h2>
+        <div>
+          <div>
+            <div>
+              <label for="">Valor 1</label>
+              <input id="valor1" type="text" />
+            </div>
+            <div>
+              <label for="">Valor 2</label>
+              <input id="valor2" type="text" />
+            </div>
+            <div style="display: flex">
+              <button id="btn-sumar" type="button">Sumar</button>
+              <button id="btn-restar" type="button">Restar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Definición de la función limpiar
+      function limpiar() {
+        // Limpiar el contenido del elemento con clase "resultado"
+        ...
+      }
+
+      // Definición de la función mostrarResultado que recibe un parámetro resultado
+      function mostrarResultado(resultado) {
+        // Si el resultado es menor que 0, establecer resultado como 0
+        if (resultado < 0) {
+          resultado = 0;
+        }
+        // Mostrar el resultado en el elemento con clase "resultado"
+        document.querySelector(".resultado").innerHTML = resultado;
+      }
+
+      // Agregar un event listener al botón con el id "btn-sumar"
+      document
+        .getElementById("btn-sumar")
+        .addEventListener("...", function () {
+          // Llamar a la función limpiar para limpiar el contenido previo
+          limpiar();
+          // Obtener los valores de los campos de entrada valor1 y valor2
+          let valor1 = document...("valor1")....;
+          let valor2 = document...("valor2")....;
+          // Calcular la suma de los valores obtenidos como números
+          let valor3 = Number(valor1) + Number(valor2);
+          // Mostrar el resultado de la suma llamando a la función mostrarResultado
+          mostrarResultado(valor3);
+        });
+
+      // Agregar un event listener al botón con el id "btn-restar"
+      document
+        ...("btn-restar")
+        .addEventListener("...", function () {
+          // Llamar a la función limpiar para limpiar el contenido previo
+          limpiar();
+          // Obtener los valores de los campos de entrada valor1 y valor2
+          let valor1 = document...("valor1")....;
+          let valor2 = document...("valor2")....;
+          // Calcular la resta de los valores obtenidos como números
+          let valor3 = Number(valor1) - Number(valor2);
+          // Mostrar el resultado de la resta llamando a la función mostrarResultado
+          ...(valor3);
+        });
+    </script>
+  </body>
+</html>
