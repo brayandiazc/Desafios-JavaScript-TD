@@ -24,7 +24,7 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
 3. **Modulo 3** - Fundamentos de programación en JavaScript
    1. Unidad 1 - Introducción al lenguaje JavaScript
       1. [Desafio Guiado - Uso de variables y operadores aritméticos](./MODULO-3/Unidad-1/DesafioGuiado-UsoVariablesOperadoresAritmeticos/index.html)
-      2. [Desafío Guiado - Cachipún contra la máquina](./MODULO-3/Unidad-1/DesafioGuiado-CachipunContraLaMaquina/index.html)
+      2. [Desafío Evaluado - Cachipún contra la máquina](./MODULO-3/Unidad-1/DesafioEvaluado-CachipunContraLaMaquina/index.html)
    2. Unidad 2 - Funciones y Ciclos
       1. [Desafío Guiado - Multiplicacion](./MODULO-3/Unidad-2/DesafioGuiado-Multiplicacion/index.html)
    3. Unidad 3 - Arrays y Objetos
