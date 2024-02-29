@@ -28,9 +28,9 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
    2. Unidad 2 - Funciones y Ciclos
       1. [Desafío Guiado - Multiplicacion](./MODULO-3/Unidad-2/DesafioGuiado-Multiplicacion/index.html)
       2. [Desafío Evaluado - JavaScript en práctica](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica)
-         1. [Desafío Evaluado - JavaScript en práctica - Ejercicio 1](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-1.html)
-         2. [Desafío Evaluado - JavaScript en práctica - Ejercicio 2](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-2.html)
-         3. [Desafío Evaluado - JavaScript en práctica - Ejercicio 3](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-3.html)
+      3. [Desafío Evaluado - JavaScript en práctica - Ejercicio 1](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-1.html)
+      4. [Desafío Evaluado - JavaScript en práctica - Ejercicio 2](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-2.html)
+      5. [Desafío Evaluado - JavaScript en práctica - Ejercicio 3](./MODULO-3/Unidad-2/DesafioEvaluado-JavaScriptEnPractica/ejercicio-3.html)
    3. Unidad 3 - Arrays y Objetos
       1. [Desafío Guiado - Uso básico de arrays y objetos](./MODULO-3/Unidad-3/DesafioGuiado-ArraysObjetos/index.html)
       2. [Desafío Evaluado - Uso de métodos con arrays y objetos](./MODULO-3/Unidad-3/DesafioEvaluado-MetodosArraysObjetos/index.html)
