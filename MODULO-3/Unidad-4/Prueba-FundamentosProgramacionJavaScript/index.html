@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="assets/img/sh2.jpg" alt="" width="50px" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Contenido -->
+    <header>
+      <div>
+        <img src="assets/img/sh1.jpg" alt="" width="" />
+      </div>
+      <div>
+        <h1>Encuentra tu SuperHero</h1>
+        <form action="">
+          <p>
+            <label for="superhero"
+              >Ingresa el número del SuperHero a buscar</label
+            ><br />
+            <input
+              type="text"
+              name="superhero"
+              id="superhero"
+              placeholder="Busca un heroe 🦸"
+            />
+          </p>
+          <p>
+            <input type="submit" value="Buscar" />
+          </p>
+        </form>
+      </div>
+    </header>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("form").submit(function (event) {
+          event.preventDefault();
+          const searchTerm = $("#superhero").val().trim();
+          if (!searchTerm.match(/^\d+$/)) {
+            alert("Por favor, ingresa solo números.");
+            return;
+          }
+
+          const apiKey = "4905856019427443";
+          const apiUrl = `https://superheroapi.com/api.php/${apiKey}/${searchTerm}`;
+
+          // Hacer la petición a la API
+          $.ajax({
+            ...
+            // Si hay un error en la petición
+            ...
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

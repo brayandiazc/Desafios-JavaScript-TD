@@ -35,7 +35,7 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
       1. [Desafío Guiado - Uso básico de arrays y objetos](./MODULO-3/Unidad-3/DesafioGuiado-ArraysObjetos/index.html)
       2. [Desafío Evaluado - Uso de métodos con arrays y objetos](./MODULO-3/Unidad-3/DesafioEvaluado-MetodosArraysObjetos/index.html)
    4. Unidad 4 - APIs
-      1.
+      1. [Prueba - Fundamentos de programación en JavaScript](./MODULO-3/Unidad-4/Prueba-FundamentosProgramacionJavaScript/index.html)
 
 ## Empezando 🚀
 
