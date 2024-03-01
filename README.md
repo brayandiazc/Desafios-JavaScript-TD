@@ -36,6 +36,9 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
       2. [Desafío Evaluado - Uso de métodos con arrays y objetos](./MODULO-3/Unidad-3/DesafioEvaluado-MetodosArraysObjetos/index.html)
    4. Unidad 4 - APIs
       1. [Prueba - Fundamentos de programación en JavaScript](./MODULO-3/Unidad-4/Prueba-FundamentosProgramacionJavaScript/index.html)
+4. **Modulo 4** - Programación avanzada en javaScript
+   1. Unidad 1 - ES6 y POO
+      1. [Desafío Opcional - Creando y modificando objetos](MODULO-4/Unidad-1/DesafioOpcional-CreandoModificandoObjetos/consultorio.js)
 
 ## Empezando 🚀
 
