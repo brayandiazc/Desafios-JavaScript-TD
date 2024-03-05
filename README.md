@@ -39,7 +39,7 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
 4. **Modulo 4** - Programación avanzada en javaScript
    1. Unidad 1 - ES6 y POO
       1. [Desafío Opcional - Creando y modificando objetos](MODULO-4/Unidad-1/DesafioOpcional-CreandoModificandoObjetos/consultorio.js)
-      2. [Desafío evaluado - Clases en ES6](MODULO-4/Unidad-1/DesafioEvaluado-ClasesES6/)
+      2. [Desafío evaluado - Clases en ES6](MODULO-4/Unidad-1/DesafíoEvaluado-ClasesES6)
 
 ## Empezando 🚀
 
