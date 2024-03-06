@@ -1,0 +1,12 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+    width: 10%;
+}
+
+#musica, #peliculas, #series {
+    display: none;
+    margin: 0 auto;
+}

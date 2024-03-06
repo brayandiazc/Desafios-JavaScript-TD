@@ -40,6 +40,9 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
    1. Unidad 1 - ES6 y POO
       1. [Desafío Opcional - Creando y modificando objetos](MODULO-4/Unidad-1/DesafioOpcional-CreandoModificandoObjetos/consultorio.js)
       2. [Desafío evaluado - Clases en ES6](MODULO-4/Unidad-1/DesafíoEvaluado-ClasesES6)
+   2. Unidad 2 - Herencia
+      1. [Desafío Opcional - Lista de animales](MODULO-4/Unidad-2/DesafíoOpcional-ListaAnimales)
+      2. [Desafío Evaluado - Sugerencia de Videos](MODULO-4/Unidad-2/DesafíoEvaluado-SugerenciaVideos)
 
 ## Empezando 🚀
 
