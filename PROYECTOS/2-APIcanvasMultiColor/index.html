@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas Drawing with Mouse</title>
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="400"
+      height="400"
+      style="border: 1px solid black"
+    ></canvas>
+    <label for="colorPicker">Choose color:</label>
+    <input type="color" id="colorPicker" value="#000000" />
+
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      var isDrawing = false;
+      var lastX = 0;
+      var lastY = 0;
+      var color = "#000000"; // Color inicial
+
+      canvas.addEventListener("mousedown", function (e) {
+        isDrawing = true;
+        [lastX, lastY] = [e.offsetX, e.offsetY];
+      });
+
+      canvas.addEventListener("mousemove", function (e) {
+        if (isDrawing) {
+          var mouseX = e.offsetX;
+          var mouseY = e.offsetY;
+
+          ctx.beginPath();
+          ctx.moveTo(lastX, lastY);
+          ctx.lineTo(mouseX, mouseY);
+          ctx.strokeStyle = color; // Usar el color seleccionado
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          [lastX, lastY] = [mouseX, mouseY];
+        }
+      });
+
+      canvas.addEventListener("mouseup", function () {
+        isDrawing = false;
+      });
+
+      // Actualizar el color cuando se selecciona uno nuevo
+      document
+        .getElementById("colorPicker")
+        .addEventListener("input", function (e) {
+          color = e.target.value;
+        });
+    </script>
+  </body>
+</html>

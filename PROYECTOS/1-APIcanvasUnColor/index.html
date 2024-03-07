@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas Drawing with Mouse</title>
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="400"
+      height="400"
+      style="border: 1px solid black"
+    ></canvas>
+
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      var isDrawing = false;
+      var lastX = 0;
+      var lastY = 0;
+
+      canvas.addEventListener("mousedown", function (e) {
+        isDrawing = true;
+        [lastX, lastY] = [e.offsetX, e.offsetY];
+      });
+
+      canvas.addEventListener("mousemove", function (e) {
+        if (isDrawing) {
+          var mouseX = e.offsetX;
+          var mouseY = e.offsetY;
+
+          ctx.beginPath();
+          ctx.moveTo(lastX, lastY);
+          ctx.lineTo(mouseX, mouseY);
+          ctx.strokeStyle = "black";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          [lastX, lastY] = [mouseX, mouseY];
+        }
+      });
+
+      canvas.addEventListener("mouseup", function () {
+        isDrawing = false;
+      });
+    </script>
+  </body>
+</html>

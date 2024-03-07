@@ -43,6 +43,9 @@ En algunos casos se incluyen ejemplos de código que pueden ser utilizados como 
    2. Unidad 2 - Herencia
       1. [Desafío Opcional - Lista de animales](MODULO-4/Unidad-2/DesafíoOpcional-ListaAnimales)
       2. [Desafío Evaluado - Sugerencia de Videos](MODULO-4/Unidad-2/DesafíoEvaluado-SugerenciaVideos)
+   3. Unidad 3 - Callbacks y APIs
+      1. [Desafío Opcional - Promesas](MODULO-4/Unidad-3/DesafíoOpcional-Promesas)
+      2. [Desafío Evaluado - API de Rick and Morty](MODULO-4/Unidad-3/DesafíoEvaluado-APIRickAndMorty)
 
 ## Empezando 🚀
 
